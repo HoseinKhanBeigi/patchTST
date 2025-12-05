@@ -1,17 +1,8 @@
 # Sensitive configuration
 config.py
 
-# Data files (too large for git)
-*.csv
-btc_5m_5years.csv
 
-# Model files and outputs (too large)
-vast_outputs/
-*.pt
-*.pth
-*.safetensors
-*.bin
-checkpoint-*/
+
 
 # Python
 __pycache__/
