@@ -1,0 +1,48 @@
+# Sensitive configuration
+config.py
+
+# Data files (too large for git)
+*.csv
+btc_5m_5years.csv
+
+# Model files and outputs (too large)
+vast_outputs/
+*.pt
+*.pth
+*.safetensors
+*.bin
+checkpoint-*/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Training outputs
+patchtst_bitcoin_output/
+*.ckpt
+
